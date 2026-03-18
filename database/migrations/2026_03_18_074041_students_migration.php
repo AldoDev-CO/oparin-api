@@ -29,7 +29,7 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Scchema::dropIfExists("students");
+        Schema::dropIfExists("students");
 
     }
 };
