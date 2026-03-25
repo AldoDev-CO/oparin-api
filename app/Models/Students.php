@@ -9,7 +9,7 @@ class Students extends Model
 {
     use HasFactory; //sirve para conectar un modelo con su respectiva fabrica
 
-    protected $filleable = [
+    protected $fillable = [
         'first_name', 
         'last_name', 
         'email', 
