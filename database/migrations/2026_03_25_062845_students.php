@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string("email")->unique();
             $table->string("phone")->nullable();
             $table->enum("status", ["active", "inactive"])->default("active"); //tipo de dato de entorno backend abreviatura de enumeracion como
-
+            $table->timestamps();
         });
     }
 
